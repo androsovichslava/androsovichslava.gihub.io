@@ -124,7 +124,9 @@ document.querySelector('.div-10').addEventListener("touchmove", t10);
 /*  Дан блок div-11. Добавьте на него событие touch. При срабатывании выводите радиус события radiusX, radiusY. */
 
 function t11(e) {
+    e.preventDefault();
     let touch = e.changedTouches.item(0);
+
     document.querySelector('.out-11').innerHTML = touch.radiusX + "   " + touch.radiusY;
 
 }
