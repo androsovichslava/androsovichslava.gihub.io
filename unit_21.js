@@ -177,7 +177,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
 
 
 function resetFunction(counter) {
-    item[counter].classList.remove("active-img");
+    images[counter].classList.remove("active-img");
 }
 
 function setImageActiveClass(index) {
